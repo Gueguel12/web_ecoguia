@@ -1,0 +1,217 @@
+.container-catalogo {
+    position: absolute; 
+    top: 0; 
+    width: 100%; 
+    padding: 10px 0; 
+    z-index: 1000; 
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    background-color: transparent
+
+}
+
+.container-logo {
+    display: flex;
+    justify-content: start;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.container-logo img{
+    width: 60%;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+
+.container-navbar{
+  position: absolute; 
+  width: 100%; 
+  top: 20px; 
+  display: flex; 
+  justify-content: center; 
+   
+}
+
+.container-navbar a{
+    position: relative;
+    z-index: 7;
+    color: #000; 
+    text-decoration: none; 
+    margin-bottom: 15px;
+    margin-left: 20px;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+.btn-login{
+    position: absolute; 
+    top: 15px; 
+    right: 30px; 
+    display: flex;
+    align-items: center;
+}
+
+.btn-login button{
+    background: none; 
+    border: 0.5px solid #000; 
+    border-radius: 0;
+    color: #000; 
+    padding: 8px 25px; 
+    cursor: pointer; 
+    text-decoration: none;
+    
+}
+
+.container-titulo-alt{
+    display: flex;
+    flex-direction: column;
+ 
+}
+
+.container-titulo-alt h2{
+    font-size: 36px;
+    text-align: center;
+    z-index: 7;
+    margin: 30px 10px 20px 0;
+}
+
+.container-titulo-alt h2 .highlight{
+    color: #6BBF59; 
+    margin: 5px;
+}
+
+.retang-coleta{
+      z-index: 1;
+      top: 125px; 
+      left: 32%; 
+      display: flex;
+      margin: 0;
+}
+
+.container-titulo-alt p{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 16px;
+    text-align: center;
+    margin: 0 10px 5px 5px;
+}
+
+.pai-container-mod-level{
+    width: 65vw; 
+    height: auto; 
+    background-color: #F1F1F1;
+    border: 0.5px solid transparent;
+    border-radius: 39px;
+    box-shadow: 1px 3px 10px 9px rgba(0, 0, 0, 0.16);
+    margin: 20px 175px 20px;
+    z-index: 7;
+    position: absolute;
+    display: flex; 
+    flex-direction: column; 
+    padding: 40px; 
+}
+
+.container-level {
+    position: relative;
+    z-index: 1; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .img-level{
+    width: 50vw;
+    margin-top: 60px; 
+    border-radius: 5px;
+  }
+
+.container-mod-level{
+    position: relative; 
+    background-color: #ffff;
+    padding-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 40vw;
+    height: 40vh;
+    border: 0.5px solid transparent;
+    border-radius: 5px;
+    box-shadow: 1px 3px 10px 9px rgba(0, 0, 0, 0.16);
+    margin-bottom: 80px; 
+    margin-left: 19%;
+    margin-top: -15%;
+    z-index: 1;
+}
+
+.container-mod-level h2{
+    display: flex;
+    justify-content: center;
+    font-size: 28px;
+    text-align: center;
+   
+}
+
+.container-btns {
+    display: flex; 
+    flex-direction: row; 
+    gap: 30px; 
+    justify-content: center; 
+    margin-top: 20px;
+    margin-bottom: 40px; 
+}
+
+.level-input {
+    width: 20vw;
+    padding: 10px;
+    border: 0.5px solid #6BBF59;
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 20px; 
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto; 
+}
+
+.level-input::placeholder {
+    color: #6BBF59;
+}
+
+.btn-level-add, .btn-level-excluir {
+    width: 12vw;
+    height: 8vh;
+    background-color: #6BBF59;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-level-excluir {
+    background-color: #265705; 
+}
+
+.container-lista-level h3{
+width: 15vw;
+height: 5vh;
+margin-top: 50px;
+margin-left: 310px;
+font-size: 20px;
+background-color: #E2F2DF;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+border: 0.5px solid transparent;
+border-radius: 5px;
+box-shadow: 1px 3px 25px 9px rgba(0, 0, 0, 0.16);
+}

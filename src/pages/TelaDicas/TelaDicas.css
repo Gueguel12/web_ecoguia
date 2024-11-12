@@ -1,0 +1,187 @@
+.container-catalogo {
+    position: absolute; 
+    top: 0; 
+    width: 100%; 
+    padding: 10px 0; 
+    z-index: 1000; 
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    background-color: transparent
+}
+
+
+.container-logo {
+    display: flex;
+    justify-content: start;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.container-logo img{
+    width: 60%;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+
+.container-navbar{
+  position: absolute; 
+  width: 100%; 
+  top: 20px; 
+  display: flex; 
+  justify-content: center; 
+   
+}
+
+.container-navbar a{
+    position: relative;
+    z-index: 7;
+    color: #000; 
+    text-decoration: none; 
+    margin-bottom: 15px;
+    margin-left: 20px;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+.btn-login{
+    position: absolute; 
+    top: 15px; 
+    right: 30px; 
+    display: flex;
+    align-items: center;
+}
+
+.btn-login button{
+    background: none; 
+    border: 0.5px solid #000; 
+    border-radius: 0;
+    color: #000; 
+    padding: 8px 25px; 
+    cursor: pointer; 
+    text-decoration: none;
+    
+}
+
+.container-titulo-alt{
+    display: flex;
+    flex-direction: column;
+ 
+}
+
+.container-titulo-alt h2{
+    font-size: 36px;
+    text-align: center;
+    z-index: 7;
+    margin: 30px 10px 20px 0;
+}
+
+.container-titulo-alt h2 .highlight{
+    color: #6BBF59; 
+    margin: 5px;
+}
+
+.retang-coleta{
+      z-index: 1;
+      top: 125px; 
+      left: 32%; 
+      display: flex;
+      margin: 0;
+}
+
+.container-titulo-alt p{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 16px;
+    text-align: center;
+    margin: 0 10px 5px 5px;
+}
+
+.pai-container-teladicas {
+    width: 80vw; 
+    height: auto; 
+    background-color: #F1F1F1;
+    border: 0.5px solid transparent;
+    border-radius: 39px;
+    box-shadow: 1px 3px 10px 9px rgba(0, 0, 0, 0.16);
+    margin: 20px 80px 20px;
+    z-index: 7;
+    position: absolute;
+    display: flex; 
+    flex-direction: column; 
+    padding: 40px; 
+}
+
+.btn-adicionar {
+    width: 130px;
+    height: 30px;
+    background-color: #6BBF59;
+    justify-content: center;
+    text-align: center;
+    margin-left: auto; /* Move o botão para a direita */
+    margin-bottom: 30px; /* Adiciona um espaço abaixo do botão */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.container-adddicas {
+    display: flex;
+    flex-direction: column; /* Mantenha as dicas em coluna */
+    align-items: center;
+}
+
+
+
+.container-dicaum,
+.container-dicadois,
+.container-dicatres,
+.container-dicaquatro {
+    width: 80vw; 
+    height: 10vh; 
+    background-color: #E2F2DF;
+    border: 0.5px solid transparent;
+    border-radius: 10px;
+    box-shadow: 1px 3px 10px 9px rgba(0, 0, 0, 0.16);
+    margin-bottom: 55px;
+    margin-top: 10px;
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 0 15px; 
+    gap:25px;
+}
+
+.container-dicaum h5,
+.container-dicadois h5,
+.container-dicatres h5,
+.container-dicaquatro h5 {
+    font-size: 20px;
+    margin: 0; 
+    flex: 1; 
+}
+
+.buttons-container {
+    display: flex; 
+    gap: 10px; 
+}
+
+.container-dicaum button,
+.container-dicadois button,
+.container-dicatres button,
+.container-dicaquatro button {
+    width: 130px;
+    height: 30px;
+    background-color: #ffff;
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+   
+}
+
+
+
+

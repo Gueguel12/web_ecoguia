@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --snc-text-base: 16px;
+    --snc-link-max-w: 450px;
+    --snc-2: max(24px, min(1.5vw, 30px));
+}
+
+.container {
+    position: absolute; 
+    top: 0; 
+    width: 100%; 
+    padding: 10px 0; 
+    z-index: 1000; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    background-color: transparent
+}
+
+.container-pag {
+    display: flex; 
+    justify-content: center; 
+    flex: 1; 
+    z-index: 1;
+    margin-left: 10%;
+}
+
+.container-pag a {
+    color: #000; 
+    text-decoration: none; 
+    margin: 0 10px; 
+    font-size: var(--snc-text-base); 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+}
+
+.container-pag a:hover {
+    color: #265705; 
+}
+
+.container-btnlogin {
+    display: flex; 
+    align-items: center;
+    margin-right: 20px;
+    
+   
+}
+
+.button {
+    background: none; 
+    border: 0.5px solid #000; 
+    border-radius: 0;
+    color: #000; 
+    padding: 8px 25px; 
+    cursor: pointer; 
+    text-decoration: none;   
+}
+
+/* @media screen and (min-width: 1080px) and (max-width: 2400px) {
+    .container{
+        width: 90vw;
+        display: flex;
+        
+    }
+
+    .container-pag{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container-pag a{
+        display: flex;
+    }
+
+    .container-btnlogin {
+        display: flex; 
+        align-items: center;
+        margin-right: 20px;
+        
+       
+    }
+    
+    .button {
+        background: none; 
+        border: 0.5px solid #000; 
+        border-radius: 0;
+        color: #000; 
+        padding: 8px 25px; 
+        cursor: pointer; 
+        text-decoration: none;   
+    }
+  
+} */
+
+@media  screen and (max-width: 768px) {
+    .container{
+        width: 90vw;
+        display: flex;
+        
+    }
+
+    .container-pag{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container-pag a{
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .container {
+        width: 80vw;
+        display: flex;
+    }
+    
+    .container-pag {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .container-pag a {
+        width: 10vw; 
+        font-size: 12px;
+        text-align: center;
+       
+    }
+
+    .container-btnlogin {
+        width: 10px;
+        
+    }
+
+    .button{
+        font-size: 12px;
+        padding: 8px 15px; 
+        margin-left: 20px;
+        
+    }
+
+
+}
+
+@media screen and (max-width: 375px) {
+    .container {
+        width: 75vw;
+        display: flex;
+    }
+
+    .container-pag {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .container-pag a {
+        width: 10vw; 
+        font-size: 10px;
+        text-align: center;
+       
+    }
+
+    .container-btnlogin {
+        width: 10px;
+        
+    }
+
+    .button{
+        font-size: 10px;
+        padding: 8px 15px; 
+        margin-left: 20px;
+        
+    }
+
+}
+
+@media screen and (max-width: 320px){
+    .container {
+        width: 80vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container-pag {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+    }
+
+    .container-pag a {
+        width: 10vw; 
+        font-size: 8px;
+        text-align: center;
+        margin-right: 10px;
+       
+    }
+
+    .container-btnlogin {
+        width: 10px;
+        
+    }
+
+    .button{
+        font-size: 8px;
+        padding: 8px 15px; 
+        margin-left: 15px;
+        
+    }
+}
