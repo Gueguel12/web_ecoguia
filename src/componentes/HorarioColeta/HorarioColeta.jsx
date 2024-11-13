@@ -20,6 +20,10 @@ function HorarioColeta() {
         fetchArticles();
     }, []);
 
+    const handleArticleSelect = (artigo) => {
+        setArtigoSelecionado(artigo); // Armazena o artigo selecionado
+    };
+
     const formatarData = (data) => {
         const opcoes = { day: 'numeric', month: 'long', year: 'numeric' };
         return new Date(data).toLocaleDateString('pt-BR', opcoes);
@@ -57,7 +61,7 @@ function HorarioColeta() {
                             <img src={artigos[0].image_article} alt={artigos[0].title_article} className='img-not-grande' />
                             <h4>{artigos[0].title_article}</h4>
                             <p>{formatarData(artigos[0].date_article)}</p>
-                            <Link to={`/catalogo/${artigos[0].pk_IDarticle}`} className='link-clicavel'></Link>
+                            <Link to={`/catalogo`} className='link-clicavel'></Link>
                         </>
                     )}
                 </div>
@@ -70,7 +74,7 @@ function HorarioColeta() {
                                 <h5>{artigo.title_article}</h5>
                                 <p className='data-artigo'>{formatarData(artigo.date_article)}</p>
                             </div>
-                            <Link to={`/catalogo/${artigo.pk_IDarticle}`} className='link-clicavel'></Link>
+                            <Link to={`/catalogo`} className='link-clicavel'></Link>
                         </div>
                     ))}
                 </div>
